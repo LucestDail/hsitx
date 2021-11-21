@@ -7,7 +7,7 @@
     	"activeTab"
 	],
 	"background": {
-		"scripts": ["jquery.js", "background.js"],
+		"scripts": ["jquery.js", "background.js", "injectHTMLtarget.js"],
 		"persistent": false
 	},
 	"browser_action": {

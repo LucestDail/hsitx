@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "HyosungITX XPath Extracting Tools",
+	"description": "XPath 추출하기 위한 크롬 확장 프로그램입니다.",
+	"version": "1.0",
+	"permissions": [
+    	"activeTab"
+	],
+	"background": {
+		"scripts": ["jquery.js", "background.js"],
+		"persistent": false
+	},
+	"browser_action": {
+		"default_icon": "itx.png"
+	},
+	"icons" : {
+		"16": "itx.png",
+		"48": "itx.png",
+	   "128": "itx.png"
+	},
+	"web_accessible_resources": [
+		"styles.css"
+	]
+}

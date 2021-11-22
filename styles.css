@@ -15,3 +15,7 @@ body {
 iframe {
 	border: none;
 }
+
+.itxClass:hover{
+	background-color:moccasin !important;
+}
